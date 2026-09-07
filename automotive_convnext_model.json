@@ -1,0 +1,23 @@
+{
+  "name": "ConvNeXt-Tiny Automotive Perception Baseline",
+  "architecture": "ConvNeXt-Tiny",
+  "parameter_count": 28589128,
+  "embeddings": {
+    "type": "image_embedding",
+    "dimension": 768,
+    "source": "ConvNeXt feature representation"
+  },
+  "configuration": {
+    "input_size": [
+      224,
+      224
+    ],
+    "num_classes": 3,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 10,
+    "weight_decay": 0.0001,
+    "dropout": 0.0
+  }
+}
