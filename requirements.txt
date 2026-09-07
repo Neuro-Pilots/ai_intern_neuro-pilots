@@ -1,0 +1,13 @@
+streamlit
+python-dotenv
+pandas
+numpy
+scikit-learn
+matplotlib
+plotly
+mlflow
+groq
+google-genai
+huggingface-hub
+pydantic
+requests

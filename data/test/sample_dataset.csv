@@ -1,0 +1,6 @@
+speed,temperature,vehicle_type,target
+50,32,car,0
+60,35,car,0
+70,38,suv,1
+80,40,suv,1
+90,45,car,1

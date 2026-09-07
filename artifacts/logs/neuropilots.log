@@ -1,0 +1,299 @@
+2026-09-07 12:16:42 | INFO | neuropilots.test | NeuroPilots logging test passed
+2026-09-07 12:20:37 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: data/test/sample_dataset.csv
+2026-09-07 12:20:37 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=sample_dataset rows=5 columns=4
+2026-09-07 12:22:48 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=computer_vision
+2026-09-07 12:22:48 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=ConvNeXt-Tiny architecture=ConvNeXt parameters=28589128
+2026-09-07 12:23:06 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=unspecified
+2026-09-07 12:23:06 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=TestModel architecture=TestArchitecture parameters=unknown
+2026-09-07 12:23:22 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=computer_vision
+2026-09-07 12:23:22 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=M architecture=unknown parameters=300
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=tabular
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: data/test/sample_dataset.csv
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: data/test/sample_dataset.csv
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=sample_dataset rows=5 columns=4
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model artifact.
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=tabular
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=TestModel architecture=XGBoost parameters=100
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting in-memory training logs.
+2026-09-07 12:26:00 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=tabular
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: data/test/sample_dataset.csv
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: data/test/sample_dataset.csv
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=sample_dataset rows=5 columns=4
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model artifact.
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=tabular
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=TestModel architecture=XGBoost parameters=100
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting in-memory training logs.
+2026-09-07 12:29:32 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 12:33:40 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 12:33:40 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model artifact.
+2026-09-07 12:33:40 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=computer_vision
+2026-09-07 12:33:40 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=ConvNeXt-Tiny architecture=ConvNeXt parameters=28589128
+2026-09-07 12:33:40 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=False model=True training_logs=False
+2026-09-07 12:34:07 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 12:34:07 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: data/test/sample_dataset.csv
+2026-09-07 12:34:07 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: data/test/sample_dataset.csv
+2026-09-07 12:34:07 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=sample_dataset rows=5 columns=4
+2026-09-07 12:34:07 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model artifact.
+2026-09-07 12:34:07 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=computer_vision
+2026-09-07 12:34:07 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=ConvNeXt-Tiny architecture=ConvNeXt parameters=28589128
+2026-09-07 12:34:07 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=False
+2026-09-07 12:34:07 | INFO | neuropilots.workloads.base | Built experiment context for workload 'computer_vision'.
+2026-09-07 12:37:09 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=nlp
+2026-09-07 12:37:09 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: data/test/sample_dataset.csv
+2026-09-07 12:37:09 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: data/test/sample_dataset.csv
+2026-09-07 12:37:09 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=sample_dataset rows=5 columns=4
+2026-09-07 12:37:09 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model artifact.
+2026-09-07 12:37:09 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=nlp
+2026-09-07 12:37:09 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=ModernBERT-base architecture=ModernBERT parameters=149000000
+2026-09-07 12:37:09 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=False
+2026-09-07 12:37:09 | INFO | neuropilots.workloads.base | Built experiment context for workload 'nlp'.
+2026-09-07 12:38:49 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=time_series
+2026-09-07 12:38:49 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: data/test/sample_dataset.csv
+2026-09-07 12:38:49 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: data/test/sample_dataset.csv
+2026-09-07 12:38:49 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=sample_dataset rows=5 columns=4
+2026-09-07 12:38:49 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model artifact.
+2026-09-07 12:38:49 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=time_series
+2026-09-07 12:38:49 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=Chronos-2 architecture=Chronos parameters=0
+2026-09-07 12:38:49 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=False
+2026-09-07 12:38:49 | INFO | neuropilots.workloads.base | Built experiment context for workload 'time_series'.
+2026-09-07 12:40:12 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=tabular
+2026-09-07 12:40:12 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: data/test/sample_dataset.csv
+2026-09-07 12:40:12 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: data/test/sample_dataset.csv
+2026-09-07 12:40:12 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=sample_dataset rows=5 columns=4
+2026-09-07 12:40:12 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model artifact.
+2026-09-07 12:40:12 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=tabular
+2026-09-07 12:40:12 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=XGBoost architecture=XGBoost parameters=100
+2026-09-07 12:40:12 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=False
+2026-09-07 12:40:12 | INFO | neuropilots.workloads.base | Built experiment context for workload 'tabular'.
+2026-09-07 12:41:21 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=speech
+2026-09-07 12:41:21 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: data/test/sample_dataset.csv
+2026-09-07 12:41:21 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: data/test/sample_dataset.csv
+2026-09-07 12:41:21 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=sample_dataset rows=5 columns=4
+2026-09-07 12:41:21 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model artifact.
+2026-09-07 12:41:21 | INFO | neuropilots.ingestion.model_analyzer | Starting model analysis for workload=speech
+2026-09-07 12:41:21 | INFO | neuropilots.ingestion.model_analyzer | Model analysis completed: name=Whisper-large-v3-turbo architecture=Whisper parameters=0
+2026-09-07 12:41:21 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=False
+2026-09-07 12:41:21 | INFO | neuropilots.workloads.base | Built experiment context for workload 'speech'.
+2026-09-07 14:44:33 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 14:46:02 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 14:46:02 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 14:48:56 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 14:48:56 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 14:49:24 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 14:49:24 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 14:49:24 | ERROR | neuropilots.advisor.llm_reasoner | LLM provider 'groq' failed: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+Traceback (most recent call last):
+  File "/Users/manishrawat/Desktop/NeuroPilots/advisor/llm_reasoner.py", line 344, in reason
+    result = self._generate_with_provider(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manishrawat/Desktop/NeuroPilots/advisor/llm_reasoner.py", line 507, in _generate_with_provider
+    return self._generate_groq(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manishrawat/Desktop/NeuroPilots/advisor/llm_reasoner.py", line 541, in _generate_groq
+    response = self._groq_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manishrawat/Desktop/NeuroPilots/Neuropilot_venv/lib/python3.11/site-packages/groq/resources/chat/completions.py", line 466, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/manishrawat/Desktop/NeuroPilots/Neuropilot_venv/lib/python3.11/site-packages/groq/_base_client.py", line 1284, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manishrawat/Desktop/NeuroPilots/Neuropilot_venv/lib/python3.11/site-packages/groq/_base_client.py", line 1071, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.NotFoundError: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2026-09-07 14:49:24 | ERROR | neuropilots.advisor.llm_reasoner | LLM reasoning failed after provider attempts: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2026-09-07 15:10:22 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 15:10:22 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 15:13:36 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 15:13:36 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 15:13:39 | INFO | neuropilots.advisor.recommendation_engine | Structuring LLM recommendation from 2837 characters.
+2026-09-07 15:14:55 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 15:14:55 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 15:18:35 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 15:18:35 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 15:18:38 | INFO | neuropilots.advisor.recommendation_engine | Structuring LLM recommendation from 3558 characters.
+2026-09-07 15:18:38 | INFO | neuropilots.advisor.recommendation_engine | Recommendation structured successfully: title=Change
+2026-09-07 15:22:08 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 15:22:08 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 15:22:11 | INFO | neuropilots.advisor.recommendation_engine | Structuring LLM recommendation from 3315 characters.
+2026-09-07 15:22:11 | INFO | neuropilots.advisor.recommendation_engine | Recommendation structured successfully: title=Add a standard image‐augmentation pipeline
+2026-09-07 15:24:16 | INFO | neuropilots.advisor.experiment_selector | ExperimentSelector initialized with minimum_score=0.60
+2026-09-07 15:24:38 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 15:24:38 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 15:24:40 | INFO | neuropilots.advisor.recommendation_engine | Structuring LLM recommendation from 3415 characters.
+2026-09-07 15:24:40 | INFO | neuropilots.advisor.recommendation_engine | Recommendation structured successfully: title=Add dropout regularisation
+2026-09-07 15:24:40 | INFO | neuropilots.advisor.experiment_selector | ExperimentSelector initialized with minimum_score=0.60
+2026-09-07 15:24:40 | INFO | neuropilots.advisor.experiment_selector | Evaluating experiment recommendation: Add dropout regularisation
+2026-09-07 15:24:40 | INFO | neuropilots.advisor.experiment_selector | Experiment selection completed: selected=True, score=0.887, blockers=0
+2026-09-07 15:26:28 | INFO | neuropilots.execution.data_improvement | DataImprovementEngine initialized with 4 transformations.
+2026-09-07 15:26:48 | INFO | neuropilots.execution.data_improvement | DataImprovementEngine initialized with 4 transformations.
+2026-09-07 15:26:48 | INFO | neuropilots.execution.data_improvement | Applying data transformation: fill_missing
+2026-09-07 15:26:48 | INFO | neuropilots.execution.data_improvement | Applying data transformation: drop_duplicates
+2026-09-07 15:26:48 | INFO | neuropilots.execution.data_improvement | Applying data transformation: normalize_numeric
+2026-09-07 15:26:48 | INFO | neuropilots.execution.data_improvement | Applying data transformation: image_augmentation
+2026-09-07 15:28:28 | INFO | neuropilots.execution.model_experiment | ModelExperimentEngine initialized with strict_validation=True
+2026-09-07 15:28:48 | INFO | neuropilots.execution.model_experiment | ModelExperimentEngine initialized with strict_validation=True
+2026-09-07 15:28:48 | INFO | neuropilots.execution.model_experiment | Applying model experiment: type=hyperparameter, changes=2
+2026-09-07 15:28:48 | INFO | neuropilots.execution.model_experiment | Applying model experiment: type=learning_rate, changes=1
+2026-09-07 15:28:48 | INFO | neuropilots.execution.model_experiment | Applying model experiment: type=batch_size, changes=1
+2026-09-07 15:28:48 | INFO | neuropilots.execution.model_experiment | Applying model experiment: type=model_configuration, changes=1
+2026-09-07 15:28:48 | INFO | neuropilots.execution.model_experiment | Applying model experiment: type=hyperparameter, changes=1
+2026-09-07 15:28:48 | WARNING | neuropilots.execution.model_experiment | Model experiment validation failed with 1 error(s).
+2026-09-07 15:30:14 | INFO | neuropilots.execution.data_improvement | DataImprovementEngine initialized with 4 transformations.
+2026-09-07 15:30:14 | INFO | neuropilots.execution.model_experiment | ModelExperimentEngine initialized with strict_validation=True
+2026-09-07 15:30:14 | INFO | neuropilots.execution.experiment_executor | ExperimentExecutor initialized.
+2026-09-07 15:30:37 | INFO | neuropilots.execution.data_improvement | DataImprovementEngine initialized with 4 transformations.
+2026-09-07 15:30:37 | INFO | neuropilots.execution.model_experiment | ModelExperimentEngine initialized with strict_validation=True
+2026-09-07 15:30:37 | INFO | neuropilots.execution.experiment_executor | ExperimentExecutor initialized.
+2026-09-07 15:30:37 | INFO | neuropilots.execution.experiment_executor | Starting experiment execution: id=exp_20260907100037_cffb6b12, title=Test learning-rate experiment
+2026-09-07 15:30:37 | INFO | neuropilots.execution.experiment_executor | Experiment configuration prepared: id=exp_20260907100037_cffb6b12, parameters=3
+2026-09-07 15:30:37 | INFO | neuropilots.execution.experiment_executor | Executing training callback: id=exp_20260907100037_cffb6b12
+2026-09-07 15:30:37 | INFO | neuropilots.execution.experiment_executor | Executing evaluation callback: id=exp_20260907100037_cffb6b12
+2026-09-07 15:30:37 | INFO | neuropilots.execution.experiment_executor | Experiment execution completed: id=exp_20260907100037_cffb6b12, metrics=2
+2026-09-07 15:30:37 | INFO | neuropilots.execution.experiment_executor | Experiment execution finished: id=exp_20260907100037_cffb6b12, status=completed, duration=0.0002s
+2026-09-07 15:31:54 | INFO | neuropilots.execution.feedback_engine | FeedbackEngine initialized: primary_metric=validation_accuracy, higher_is_better=True, tolerance=0.000000
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | FeedbackEngine initialized: primary_metric=validation_accuracy, higher_is_better=True, tolerance=0.001000
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Evaluating experiment feedback: experiment_id=exp_improved
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Experiment feedback completed: outcome=improved, metric=validation_accuracy
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Evaluating experiment feedback: experiment_id=exp_degraded
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Experiment feedback completed: outcome=degraded, metric=validation_accuracy
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Evaluating experiment feedback: experiment_id=exp_no_change
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Experiment feedback completed: outcome=no_improvement, metric=validation_accuracy
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Evaluating experiment feedback: experiment_id=exp_inconclusive
+2026-09-07 15:32:15 | WARNING | neuropilots.execution.feedback_engine | Experiment feedback is inconclusive: Primary metric 'validation_accuracy' is missing from the baseline result.
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | FeedbackEngine initialized: primary_metric=validation_loss, higher_is_better=False, tolerance=0.000000
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Evaluating experiment feedback: experiment_id=exp_loss_improved
+2026-09-07 15:32:15 | INFO | neuropilots.execution.feedback_engine | Experiment feedback completed: outcome=improved, metric=validation_loss
+2026-09-07 15:39:51 | INFO | neuropilots.tracking.mlflow_tracker | Created MLflow experiment: name=NeuroPilots, experiment_id=1
+2026-09-07 15:39:51 | INFO | neuropilots.tracking.mlflow_tracker | MLflowTracker initialized: uri=http://127.0.0.1:5001, experiment=NeuroPilots, experiment_id=1
+2026-09-07 15:40:40 | INFO | neuropilots.tracking.mlflow_tracker | MLflowTracker initialized: uri=http://127.0.0.1:5001, experiment=NeuroPilots, experiment_id=1
+2026-09-07 15:40:40 | INFO | neuropilots.tracking.mlflow_tracker | Logging experiment to MLflow: experiment_id=exp_mlflow_test, run_name=mlflow-integration-test
+2026-09-07 15:40:40 | INFO | neuropilots.tracking.mlflow_tracker | MLflow experiment logged successfully: run_id=69f1b9e389b94277bd51b164f3984dd1, experiment_id=1
+2026-09-07 15:44:17 | INFO | neuropilots.__main__ | NeuroPilots UI loaded: domain=Automotive, workload=computer_vision
+2026-09-07 15:47:00 | INFO | neuropilots.__main__ | NeuroPilots UI loaded: domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 15:47:05 | INFO | neuropilots.__main__ | NeuroPilots UI loaded: domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 15:47:06 | INFO | neuropilots.__main__ | NeuroPilots UI loaded: domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 15:48:59 | INFO | neuropilots.__main__ | NeuroPilots UI loaded: domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 15:55:18 | INFO | neuropilots.__main__ | NeuroPilots UI loaded: domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 16:04:19 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 16:11:12 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 16:11:22 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 16:11:28 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 16:11:59 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 16:12:15 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Analyzing
+2026-09-07 16:12:34 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Analyzing
+2026-09-07 16:12:41 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Analyzing
+2026-09-07 17:32:23 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 17:34:01 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 17:34:10 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 17:34:15 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_ingestion_i6rup94e/automotive_perception_dataset.csv
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_ingestion_i6rup94e/automotive_perception_dataset.csv
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=automotive_perception_dataset.csv rows=20 columns=6
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model configuration: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_ingestion_i6rup94e/automotive_convnext_model.json
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.model_analyzer | Starting model configuration analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_ingestion_i6rup94e/automotive_convnext_model.json
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.model_analyzer | Model configuration analysis completed: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_ingestion_i6rup94e/automotive_convnext_model.json
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting training-log artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_ingestion_i6rup94e/automotive_training_logs.csv
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.training_log_analyzer | Starting training log analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_ingestion_i6rup94e/automotive_training_logs.csv
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.training_log_analyzer | Training log analysis completed: epochs=10 metrics=['train_loss', 'validation_loss', 'train_accuracy', 'validation_accuracy']
+2026-09-07 17:34:19 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 17:34:19 | INFO | neuropilots.__main__ | Streamlit artifact ingestion succeeded: workload=computer_vision dataset=True model=True training_logs=True
+2026-09-07 17:34:19 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Analyzed
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_rfbnvcul/automotive_perception_dataset.csv
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_rfbnvcul/automotive_perception_dataset.csv
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=automotive_perception_dataset.csv rows=20 columns=6
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model configuration: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_rfbnvcul/automotive_convnext_model.json
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.model_analyzer | Starting model configuration analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_rfbnvcul/automotive_convnext_model.json
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.model_analyzer | Model configuration analysis completed: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_rfbnvcul/automotive_convnext_model.json
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting training-log artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_rfbnvcul/baseline_metrics.json
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.training_log_analyzer | Starting training log analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_rfbnvcul/baseline_metrics.json
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.training_log_analyzer | Training log analysis completed: epochs=1 metrics=['validation_accuracy', 'validation_loss']
+2026-09-07 17:47:58 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 17:47:58 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 6 metrics, 1 evidence items.
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_3sqjgju3/automotive_perception_dataset.csv
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_3sqjgju3/automotive_perception_dataset.csv
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=automotive_perception_dataset.csv rows=20 columns=6
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model configuration: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_3sqjgju3/automotive_convnext_model.json
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.model_analyzer | Starting model configuration analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_3sqjgju3/automotive_convnext_model.json
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.model_analyzer | Model configuration analysis completed: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_3sqjgju3/automotive_convnext_model.json
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting training-log artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_3sqjgju3/automotive_training_logs.csv
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.training_log_analyzer | Starting training log analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_3sqjgju3/automotive_training_logs.csv
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.training_log_analyzer | Training log analysis completed: epochs=10 metrics=['train_loss', 'validation_loss', 'train_accuracy', 'validation_accuracy']
+2026-09-07 17:50:07 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 17:50:07 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_xamjumot/automotive_perception_dataset.csv
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_xamjumot/automotive_perception_dataset.csv
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=automotive_perception_dataset.csv rows=20 columns=6
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model configuration: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_xamjumot/automotive_convnext_model.json
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.model_analyzer | Starting model configuration analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_xamjumot/automotive_convnext_model.json
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.model_analyzer | Model configuration analysis completed: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_xamjumot/automotive_convnext_model.json
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting training-log artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_xamjumot/automotive_training_logs.csv
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.training_log_analyzer | Starting training log analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_xamjumot/automotive_training_logs.csv
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.training_log_analyzer | Training log analysis completed: epochs=10 metrics=['train_loss', 'validation_loss', 'train_accuracy', 'validation_accuracy']
+2026-09-07 17:50:09 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 17:50:09 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_s9rttzmw/automotive_perception_dataset.csv
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_s9rttzmw/automotive_perception_dataset.csv
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=automotive_perception_dataset.csv rows=20 columns=6
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model configuration: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_s9rttzmw/automotive_convnext_model.json
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.model_analyzer | Starting model configuration analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_s9rttzmw/automotive_convnext_model.json
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.model_analyzer | Model configuration analysis completed: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_s9rttzmw/automotive_convnext_model.json
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting training-log artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_s9rttzmw/automotive_training_logs.csv
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.training_log_analyzer | Starting training log analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/neuropilots_s9rttzmw/automotive_training_logs.csv
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.training_log_analyzer | Training log analysis completed: epochs=10 metrics=['train_loss', 'validation_loss', 'train_accuracy', 'validation_accuracy']
+2026-09-07 17:50:11 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 17:50:11 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 17:57:59 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 17:58:17 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 17:58:22 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 17:58:26 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Ready
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpgelrns97.csv
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpgelrns97.csv
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=automotive_perception_dataset.csv rows=20 columns=6
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model configuration: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpqb0hl553.json
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.model_analyzer | Starting model configuration analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpqb0hl553.json
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.model_analyzer | Model configuration analysis completed: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpqb0hl553.json
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting training-log artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpqe8i6txp.csv
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.training_log_analyzer | Starting training log analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpqe8i6txp.csv
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.training_log_analyzer | Training log analysis completed: epochs=10 metrics=['train_loss', 'validation_loss', 'train_accuracy', 'validation_accuracy']
+2026-09-07 17:58:33 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 17:58:33 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 17:58:33 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 17:58:36 | ERROR | neuropilots.__main__ | Experiment analysis failed: llm_reasoning must be a string.
+Traceback (most recent call last):
+  File "/Users/manishrawat/Desktop/NeuroPilots/app.py", line 1532, in <module>
+    pipeline_result = _run_analysis_pipeline(
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manishrawat/Desktop/NeuroPilots/app.py", line 890, in _run_analysis_pipeline
+    recommendation = recommendation_engine.generate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manishrawat/Desktop/NeuroPilots/advisor/recommendation_engine.py", line 167, in generate
+    raise ValueError(
+ValueError: llm_reasoning must be a string.
+2026-09-07 17:58:36 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Error
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.artifact_ingestor | Starting artifact ingestion for workload=computer_vision
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting dataset artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpl4skyc3f.csv
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.dataset_analyzer | Starting dataset analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpl4skyc3f.csv
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.dataset_analyzer | Dataset analysis completed: name=automotive_perception_dataset.csv rows=20 columns=6
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting model configuration: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpblur8qgt.json
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.model_analyzer | Starting model configuration analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpblur8qgt.json
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.model_analyzer | Model configuration analysis completed: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmpblur8qgt.json
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.artifact_ingestor | Ingesting training-log artifact: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmp8_x6v6n8.csv
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.training_log_analyzer | Starting training log analysis: /var/folders/wh/_dk9m3l12f38fxjdzskpqk9r0000gn/T/tmp8_x6v6n8.csv
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.training_log_analyzer | Training log analysis completed: epochs=10 metrics=['train_loss', 'validation_loss', 'train_accuracy', 'validation_accuracy']
+2026-09-07 18:01:25 | INFO | neuropilots.ingestion.artifact_ingestor | Artifact ingestion completed: dataset=True model=True training_logs=True
+2026-09-07 18:01:25 | INFO | neuropilots.diagnostics.performance_analyzer | Performance analysis completed: 16 metrics, 7 evidence items.
+2026-09-07 18:01:25 | INFO | neuropilots.diagnostics.root_cause_engine | Root-cause analysis completed: primary=overfitting, candidates=1.
+2026-09-07 18:01:28 | INFO | neuropilots.advisor.recommendation_engine | Structuring LLM recommendation from 3306 characters.
+2026-09-07 18:01:28 | INFO | neuropilots.advisor.recommendation_engine | Recommendation structured successfully: title=Enable early stopping on validation loss
+2026-09-07 18:01:28 | INFO | neuropilots.advisor.experiment_selector | ExperimentSelector initialized with minimum_score=0.60
+2026-09-07 18:01:28 | INFO | neuropilots.advisor.experiment_selector | Evaluating experiment recommendation: Enable early stopping on validation loss
+2026-09-07 18:01:28 | INFO | neuropilots.advisor.experiment_selector | Experiment selection completed: selected=True, score=0.963, blockers=0
+2026-09-07 18:01:28 | INFO | neuropilots.__main__ | Project UI loaded: project='AI Research Intern - LLM-Powered ML/DL Performance Advisor', team='NeuroPilots', domain=Automotive, workload=computer_vision, status=Analyzed
