@@ -1,0 +1,24 @@
+path: /Users/manishrawat/Desktop/NeuroPilots/data/cv/idd
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 15
+
+names:
+  - animal
+  - autorickshaw
+  - bicycle
+  - bus
+  - car
+  - caravan
+  - motorcycle
+  - person
+  - rider
+  - traffic light
+  - traffic sign
+  - trailer
+  - train
+  - truck
+  - vehicle fallback

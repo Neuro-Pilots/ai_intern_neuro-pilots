@@ -1,0 +1,14 @@
+Neuropilot_venv/
+.venv/
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+.DS_Store
+artifacts/
+mlruns/
+models/
+mlflow.db
+.agents/
+.dvc/cache/
